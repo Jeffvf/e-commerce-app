@@ -1,8 +1,7 @@
-import { IconContext } from 'react-icons';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { FaUserCircle } from 'react-icons/fa';
 import { BsSearch } from 'react-icons/bs';
-import styles from './searchBar.module.css';
+import styles from '../styles/searchBar.module.css';
 
 export default function SearchBar(){
   return(
