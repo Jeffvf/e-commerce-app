@@ -1,0 +1,11 @@
+.navbar{
+  width: 100vw;
+}
+
+.navbar_options{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  list-style: none;
+}
