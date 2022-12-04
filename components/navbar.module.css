@@ -1,5 +1,6 @@
 .navbar{
   width: 100vw;
+  border-bottom: 1px solid #eaeaea;
 }
 
 .navbar_options{
@@ -8,4 +9,11 @@
   justify-content: center;
   gap: 5rem;
   list-style: none;
+}
+
+@media only screen and (max-width: 1000px){
+  .navbar_options{
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
 }
