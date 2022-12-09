@@ -42,6 +42,11 @@
   height: auto;
 }
 
+.icons_div{
+  display: flex;
+  gap: 3rem;
+}
+
 @media only screen and (max-width: 650px){
   .input{
     width: 70%;
@@ -49,5 +54,13 @@
 
   .nav_search{
     gap: 1rem
+  }
+
+  .title{
+    font-size: 15px;
+  }
+  
+  .icons_div{
+    gap: 1rem;
   }
 }
